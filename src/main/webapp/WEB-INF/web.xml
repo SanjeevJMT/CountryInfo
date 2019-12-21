@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
+  	<description></description>
+  	<servlet-class>org.sanjeev.country.controller.Login</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddCountry</servlet-name>
+  	<display-name>AddCountry</display-name>
+  	<description></description>
+  	<servlet-class>org.sanjeev.country.controller.AddCountry</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CountryInfo</servlet-name>
+  	<display-name>CountryInfo</display-name>
+  	<description></description>
+  	<servlet-class>org.sanjeev.country.controller.CountryInfo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddCountry</servlet-name>
+  	<url-pattern>/AddCountry</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CountryInfo</servlet-name>
+  	<url-pattern>/CountryInfo</url-pattern>
+  </servlet-mapping>
+</web-app>
